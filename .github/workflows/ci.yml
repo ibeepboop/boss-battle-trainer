@@ -14,5 +14,5 @@ jobs:
       - uses: actions/setup-node@v5
         with:
           node-version: 24
-      - name: Placeholder check
-        run: echo "CI placeholder - real lint/typecheck/test steps land once package.json exists"
+      - run: npm ci
+      - run: npm run build --workspaces --if-present
