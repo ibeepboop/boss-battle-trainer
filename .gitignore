@@ -14,7 +14,7 @@ build/
 *.sqlite
 
 # Local Notes
-TODO.md
+*_TODO.md
 
 # Editor/OS cruft
 .DS_Store
