@@ -1,6 +1,6 @@
 # Boss Battle Trainer
 
-Log your hikes and runs, deal damage to RPG bosses, level up, and collect loot. A learning project for Vue 3 + TypeScript (and the surrounding Node/git tooling), built with an enterprise-style git workflow.
+Log your hikes, runs, and walks, deal damage to RPG bosses, level up, and collect loot. A learning project for Vue 3 + TypeScript (and the surrounding Node/git tooling), built with an enterprise-style git workflow.
 
 ## Stack
 
@@ -10,4 +10,6 @@ Log your hikes and runs, deal damage to RPG bosses, level up, and collect loot. 
 
 ## Status
 
-🚧 Milestone 0 in progress — project scaffolding.
+✅ Milestone 0 — project scaffolding
+✅ Milestone 1 — domain types & read-only Dashboard
+🚧 Milestone 2 in progress — battle engine (backend) + Vitest tests
