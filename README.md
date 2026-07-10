@@ -10,6 +10,6 @@ Log your hikes, runs, and walks, deal damage to RPG bosses, level up, and collec
 
 ## Status
 
-✅ Milestone 0 — project scaffolding
-✅ Milestone 1 — domain types & read-only Dashboard
-🚧 Milestone 2 in progress — battle engine (backend) + Vitest tests
+- ✅ Milestone 0 — project scaffolding
+- ✅ Milestone 1 — domain types & read-only Dashboard
+- 🚧 Milestone 2 in progress — battle engine (backend) + Vitest tests
