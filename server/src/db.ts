@@ -29,6 +29,20 @@ db.exec(`
         defeated INTEGER NOT NULL DEFAULT 0,
         flavorText TEXT NOT NULL
     );
+
+    CREATE TABLE IF NOT EXISTS activities (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        type TEST NOT NULL,
+        distanceMi REAL NOT NULL,
+        elevationGainFt REAL NOT NULL,
+        durationMin INTEGER NOT NULL,
+        date TEXT NOT NULL,
+        damageDealt INTEGER NOT NULL,
+        wasCrit INTEGER NOT NULL,
+        xpAwarded INTEGER NOT NULL,
+        bossDefeated INTEGER NOT NULL,
+        lootItemId INTEGER
+    );
 `);
 
 const playerCount = db.prepare('SELECT COUNT(*) AS count FROM players').get() as { count: number };
